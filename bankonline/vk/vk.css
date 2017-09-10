@@ -1,0 +1,11 @@
+.drag
+{
+    VISIBILITY: hidden;
+    OVERFLOW: hidden;
+    WIDTH: 250px;
+    CURSOR: move;
+    POSITION: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 25%;
+}

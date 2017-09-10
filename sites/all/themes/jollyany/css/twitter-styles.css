@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+.tweet{ color:#FFF;}
+.var-narrow.var-chromeless .tweet .e-entry-content p {
+	color: #FFF !important;
+	font-family: LatoRegular !important;
+	font-size: 13px !important;
+	font-weight: 300 !important;
+	line-height: 175% !important;
+}
+.tco-display {color: #00953d; font-family: LatoRegular;}
+.p-name{ color:#FFF;}
+.p-nickname{color: #00953d;}
+

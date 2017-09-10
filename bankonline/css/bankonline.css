@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'klavikabold';
+    src: url('../fonts/klavika-bold-webfont.eot');
+    src: url('../fonts/klavika-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/klavika-bold-webfont.woff2') format('woff2'),
+        url('../fonts/klavika-bold-webfont.woff') format('woff'),
+        url('../fonts/klavika-bold-webfont.ttf') format('truetype'),
+        url('../fonts/klavika-bold-webfont.svg#klavikabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'klavikamedium';
+    src: url('../fonts/klavika-medium-webfont.eot');
+    src: url('../fonts/klavika-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/klavika-medium-webfont.woff2') format('woff2'),
+        url('../fonts/klavika-medium-webfont.woff') format('woff'),
+        url('../fonts/klavika-medium-webfont.ttf') format('truetype'),
+        url('../fonts/klavika-medium-webfont.svg#klavikamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #777;
+    line-height: 130%;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0px;
+    position: relative;
+    padding: 0px 0px 10px;
+    font-weight: normal;
+    font-family: "klavikamedium",sans-serif !important;
+    line-height: 140% !important;
+    color: #00953D;
+}
+a { color: #00953D;}
+.navbar {
+    background: #323232 none repeat scroll 0% 0%;
+    border-bottom: 1px solid #414141;
+}
+.navbar-header{height: 100px;}
+.access-form{background: #00953D none repeat scroll 0% 0%; padding: 36px 20px; text-align: center}
+.logo-bo { text-align: center; margin-bottom: 10px}
+.logo-bo img{ max-width: 100%; margin: 0px auto}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #EDEDED;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    max-width: 234px;
+    margin: 0px auto 10px;
+}
+.accessForm label {
+    width: 100%;
+    max-width: 234px;
+    color: #fff;
+    text-align: left;
+}
+.accessForm .btn {
+    background: #00953D none repeat scroll 0% 0% !important;
+    border-radius: 3px;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    outline: medium none; width: 50%; max-width: 180px;
+    margin: 10px auto 5px auto;
+}
+.accessForm .btn:hover {
+    background: #fff none repeat scroll 0% 0% !important;
+    color: #00953D;
+
+}
+.accessForm .olv {
+    color: #000;
+
+}
+
+.slider-shadow {
+    background: transparent url("../images/slider-shadow.png") no-repeat scroll 0% 0% / 100% 100%;
+    width: 100%;
+    height: 77px;
+    display: block;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+}
+.access-section{ }
+.access-form{border-bottom: #00953D solid 1px;height: 456px}
+.access-banner{ 
+    margin: 0px; 
+    padding: 0px; 
+    overflow:hidden; 
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 456px;
+    position: relative;
+}
+.access-banner img{ height: 100%; vertical-align: middle;}
+.access-banner .text-banner-1{
+    background-color: #00953D;
+    font-size: 36px;
+    color: #FFF !important;
+    padding: 0px 10px;
+    font-weight: bold;
+    line-height: 140% !important;
+    font-family: "klavikamedium",sans-serif !important;
+   display: table;
+   margin: 60px 40px 0px 40px;
+}
+.access-banner .text-banner-2{
+    background-color: #00953D;
+    font-size: 36px;
+    color: #FFF !important;
+    padding: 0px 10px;
+    font-weight: bold;
+    line-height: 140% !important;
+    font-family: "klavikamedium",sans-serif !important;
+    display: table;
+    margin: 20px 40px 0px 40px;
+}
+
+footer{
+    background-color: #121214;
+padding: 0px 0px;
+display: block;
+position: relative;
+    color: #fff;
+}
+footer .footer-below{background-color: #0C0C0C;
+padding: 20px 0px 10px;}
+footer .footer-above { padding: 20px 0px !important;}
+footer {
+    font-size: 12px;
+    line-height: 120%;
+   
+}
+footer ul.ul-inl li {
+    display: inline-block;
+    width: 48%;
+}
+footer ul {
+    color: #00953D !important;
+    padding: 0px;
+}
+footer ul span {
+    display: block;
+    color: #FFF !important;
+}
+footer h2 {
+    font-size: 20px;
+}
+footer .conddp img{
+   margin: 30px 0px 10px;
+}
+footer .imgf {
+    width: 100%;
+    margin-bottom: 5px;
+}
+footer .without-mar {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+footer .btn {
+    background: #00953D none repeat scroll 0% 0% !important;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    outline: medium none; 
+    margin: 5px auto 5px auto;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    float: right;
+    display: inline;
+    margin: 5px;
+}
+
+.footer-menu li {
+    line-height: 12px;
+    float: left;
+    padding: 0px 7px;
+    
+}
+
+.footer-menu li a {
+    color: #C3C3C3;
+}

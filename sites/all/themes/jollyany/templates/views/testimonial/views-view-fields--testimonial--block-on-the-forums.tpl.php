@@ -1,0 +1,18 @@
+<?php 
+	global $image_default; 
+	if(isset($row->field_field_image[0])) {
+		$image = file_create_url($row->field_field_image[0]['rendered']['#item']['uri']);
+	} else {
+		$image = $image_default;
+	}
+?>
+<div class="testimonial-wrap">
+    <?php echo $fields['body']->content; ?>
+</div>
+<div class="media">
+    <img src="<?php print $image; ?>" alt="" class="img-circle img-responsive">
+</div>
+<div class="testimonial-names">
+    <h3><?php echo $fields['field_client']->content; ?></h3>
+    <a href="#" class="readmore"><?php echo $fields['field_regency']->content; ?> (<?php echo $fields['field_company']->content; ?>)</a>
+</div>
